@@ -1,0 +1,20 @@
+[
+   {
+      "title":"Phone Layanan Masyarakat",
+      "value":"021 - 4321 4321",
+      "image":"/icons/phone-group.png",
+      "background":"background-color-phone"
+   },
+   {
+      "title":"Whatsapp Layanan Masyarakat",
+      "value":"0851 8784 9200",
+      "image":"/icons/whatsapp-group.png",
+      "background":"background-color-wa"
+   },
+   {
+      "title":"Email Pengaduan Masyarakat",
+      "value":"satlantasbrebes@gmail.com",
+      "image":"/icons/email-group.png",
+      "background":"background-color-email"
+   }
+]

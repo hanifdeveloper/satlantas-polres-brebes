@@ -1,0 +1,17 @@
+[
+  {
+    "image": "/icons/tax-info.png",
+    "title": "Info Pajak Kendaraan",
+    "description": "Untuk dapat mengetahui informasi Pajak Kendaran yang dimiliki, Bpk/Ibu/Saudara/Saudari sekalian dapat mengeceknya melalui website resmi milik pemerintah dengan memasukkan Nomor Kendaraan."
+  },
+  {
+    "image": "/icons/driver-license.png",
+    "title": "SIM Online",
+    "description": "SIM online adalah aplikasi yang dibangun Polres Brebes dengan tujuan untuk memberikan kemudahan kepada masyarakat dalam pengurusan SIM (Surat Ijin Mengemudi)"
+  },
+  {
+    "image": "/icons/police-officer.png",
+    "title": "Info Denda Tilang",
+    "description": " Bagi masyarakat Brebes dan sekitarnya dapat melihat dan mengetahui secara terbuka daftar denda tilang yang telah ditentukan dan diputuskan oleh pemerintah pengadilan negeri."
+  }
+]
