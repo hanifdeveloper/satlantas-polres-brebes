@@ -4,14 +4,15 @@ import { useRouter } from 'next/router';
 export default function MenuItem(props) {
   const router = useRouter()
   // console.log(router);
-  // console.log(router.asPath === props.href);
+  console.log(router.asPath === props.href);
   // console.log(props);
 
   return (
     !props.submenu ?
     <li className="nav-item">
       <Link href={props.href}>
-        <a className={['nav-link', router.pathname === props.href ? 'active' : ''].join(' ')} aria-current="page">{props.title}</a>
+        {/* <a className={['nav-link', router.pathname === props.href ? 'active' : ''].join(' ')} aria-current="page">{props.title}</a> */}
+        <a className={['nav-link', router.asPath.startsWith(props.href) ? 'active' : ''].join(' ')} aria-current="page">{props.title}</a>
       </Link>
     </li>:
     <li className="nav-item dropdown">

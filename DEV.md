@@ -104,6 +104,9 @@ cp -R out ../publish
 rm .DS_Store
 [publish] git clone https://github.com/hanifdeveloper/satlantas-polres-brebes.git .
 rsync -av . ../publish --exclude={node_modules,.git}
+[publish] git add .
+[publish] git commit -m "build prod"
+[publish] git push -u origin master
 
 # remove untracked file
 git clean -fd
